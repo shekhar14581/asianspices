@@ -1,0 +1,44 @@
+
+input[type='submit'], button, [aria-label]{
+      cursor: pointer;
+    }
+    #spoiler{
+      display: none;
+    }
+
+body{
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #121212;
+}
+
+h1{
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+th{
+  text-align: left;
+}
+
+td{
+  border-top: 1px solid #666;
+  padding: 1rem 0;
+}
+
+
+button{
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #666;
+}
+
+.container{
+/*  background: #c4f9d4;*/
+  margin: 1rem auto;
+  display: block;
+  width: 300px;
+  padding: 1rem;
+/*  border-radius: 15px;
+  border: 13px double #333;
+  box-shadow: 2px 4px #ABABAB;*/
+}
+

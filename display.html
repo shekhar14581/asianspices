@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Acme Spices</title>
+
+    <!-- Bootstrap core CSS -->
+      <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/map.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="spicesoflife">Spices of Life</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects" id="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#About" id="about">About</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#location" id = "mission" >Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="ShoppingCart/shopping/shop.php" id="shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#location" id="contact">Contact</a>
+            </li>
+			
+            <li class="nav-item">
+                <img src="img/frenchflag.png" height="50" size="50" style="margin-top: 35%" onclick="french()">
+            </li>
+            <li class="nav-item">
+                <img src="img/ireland.png" height="50" size="50" style="margin-top: 35%" onclick="english()">
+            </li>
+			  <li class="nav-item">
+			  <a class="dropdown-item" href="../../php/index.php" data-toggle="modal" data-target="#logoutModal" style="margin-top: 25% ; color:yellow">Logout</a>
+            </li>
+			
+<!--            <li class="nav-item">
+           <button onclick="english()"> English </button>
+            </li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 style="color:#555;" class="mx-auto my-0 text-uppercase">Acme Spices</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Dive into the world of exotic spices</h2>
+          <a href="product.html" class="btn btn-primary js-scroll-trigger">Shop now</a>
+        </div>
+      </div>
+    </header>-->
+    
+    <header class="masthead" style="margin-top:-2%">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 style="color:#fff;" id="headerImg" sclass="mx-auto my-0 text-uppercase">Acme Spices</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Dive into the world of exotic spices</h2>
+          <a href="ShoppingCart/shopping/shop.php" class="btn btn-success js-scroll-trigger">Shop now</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="About" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">Organic Grown Spices</h2>
+            <p class="text-white-50">Founded in 2012 Acme Spices produces fresh, organic spices to be enjoyed as part of a healthy balanced diet.
+<!--              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>-->. The holostic health benefits are profound in our spices as they are produced with love and care</p>
+          </div>
+        </div>
+        <img src="img/ipad.jpg" class="img-fluid" alt="">
+      </div>
+        
+        
+        
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/spice.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Organic</h4>
+              <p class="text-black-50 mb-0">Our spices are homegrown. No harsh chemicals are used in the growing our spices. We rely on natural fertilizers and mother natures touch to produce the freshest spices.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/handground.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Hand Grounded</h4>
+                  <p class="mb-0 text-white-50">All our spices are grounded by hand using a traditional pestle and mortar. This ensures no damage or denaturation occurs.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/lovecare.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Love and Care</h4>
+                  <p class="mb-0 text-white-50">Most importantly we produce our spices with love and care. From carefully picking the spices, to grounding the spice to the beautiful packaging.</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+<!--     Signup Section 
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+            <form class="form-inline d-flex">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </section>-->
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black" id="location">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">141 College Road Co.Cork</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">AcmeSpices@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">021-26468876724</div>
+              </div>
+            </div>
+          </div>
+            
+            
+            
+            
+        
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20college%20cork&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div><style>.mapouter{text-align: center;display:block;;height:500px;width:600px;margin-top:5%; margin-left: auto; margin-right: auto}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+      
+            
+            
+            
+            
+            
+            
+            
+            
+<!--            <div class= "col-xs-12-google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317715.7233197594!2d-0.38246499337223616!3d51.52873356490415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1490178309054" style="border:0" allowfullscreen id="map"></iframe></div>-->
+        </div>
+
+        <div class="social d-flex justify-content-center">
+          <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+      </div>
+        
+
+        
+    </section>
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="../../php/index.php">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Shekhar sharma 2018
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+    <script type="text/javascript">
+    $('.google-maps').click(function() {
+	$('.google-maps iframe').css('pointer-events', 'auto');
+});
+
+$('.google-maps').mouseleave(function() {
+	$('.google-maps iframe').css('pointer-events', 'none');
+});
+        </script>
+        
+        <script type="text/javascript">
+             function french()
+{
+  var dd1 = document.getElementById("spicesoflife");
+  var dd2 = document.getElementById("home");
+  var dd3 = document.getElementById("about");
+  var dd4 = document.getElementById("mission");
+  var dd5 = document.getElementById("shop");
+  var dd6 = document.getElementById("contact");
+  
+  dd1.innerHTML = "Épices de la vie";
+  dd2.innerHTML = "Accueil";
+  dd3.innerHTML = "Sur";
+  dd4.innerHTML = "Mission";
+  dd5.innerHTML = "Boutique";
+  dd6.innerHTML = "Contact";
+}
+             </script>
+             
+             
+    <script type="text/javascript">
+             function english()
+{
+  var e1 = document.getElementById("spicesoflife");
+  var e2 = document.getElementById("home");
+  var e3 = document.getElementById("about");
+  var e4 = document.getElementById("mission");
+  var e5 = document.getElementById("shop");
+  var e6 = document.getElementById("contact");
+  
+  e1.innerHTML = "Spices of Life";
+  e2.innerHTML = "Home";
+  e3.innerHTML = "About";
+  e4.innerHTML = "Mission";
+  e5.innerHTML = "Shop";
+  e6.innerHTML = "Contact";
+}
+             </script>
+			 
+  </body>
+
+</html>

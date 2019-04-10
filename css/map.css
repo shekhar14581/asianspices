@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#map {
+	background: url(https://i.pinimg.com/originals/6d/72/ec/6d72ec208bf85647d5e594db79218802.jpg)
+		center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Open Sans";
+}
+
+.google-maps {
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+	margin-top: 50px;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+	}
+}
